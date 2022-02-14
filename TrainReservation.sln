@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation", "TrainReservation\TrainReservation.csproj", "{C67B4A26-A846-44D4-A0B6-9A759D3F71C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation.Domain", "TrainReservation.Domain\TrainReservation.Domain.csproj", "{940BBBAE-3F6D-408A-BE13-244AA66D4513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation.Domain", "TrainReservation.Domain\TrainReservation.Domain.csproj", "{940BBBAE-3F6D-408A-BE13-244AA66D4513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation.Application", "TrainReservation.Application\TrainReservation.Application.csproj", "{606D2DBF-9870-4002-BFC2-85DB4BA75957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation.Application", "TrainReservation.Application\TrainReservation.Application.csproj", "{606D2DBF-9870-4002-BFC2-85DB4BA75957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation.Persistance", "TrainReservation.Persistance\TrainReservation.Persistance.csproj", "{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{606D2DBF-9870-4002-BFC2-85DB4BA75957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{606D2DBF-9870-4002-BFC2-85DB4BA75957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{606D2DBF-9870-4002-BFC2-85DB4BA75957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
