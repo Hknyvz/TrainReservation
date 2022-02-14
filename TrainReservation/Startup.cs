@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TrainReservation.Persistance.Extensions;
 
 namespace TrainReservation
 {
@@ -9,6 +10,7 @@ namespace TrainReservation
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddObjectGenerate();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
