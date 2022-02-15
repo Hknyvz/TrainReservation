@@ -7,9 +7,9 @@ namespace TrainReservation.Domain.ResponseObject
     {
         public ResponseReservation()
         {
-            YerlesimAyrinti = new HashSet<SettlementDetail>();
+            YerlesimAyrinti = new List<SettlementDetail>();
         }
         public bool RezervasyonYapilabilir { get; set; }
-        public ICollection<SettlementDetail> YerlesimAyrinti { get; set; }
+        public IEnumerable<SettlementDetail> YerlesimAyrinti { get; set; }
     }
 }
