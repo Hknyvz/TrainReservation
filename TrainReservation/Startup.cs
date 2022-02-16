@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using TrainReservation.Middlewares;
 using TrainReservation.Persistance.Extensions;
 
 namespace TrainReservation
@@ -32,6 +33,7 @@ namespace TrainReservation
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TrainReservation v1"));
             }
+            app.UseTryCatch();
             app.UseRouting();
             app.UseCors("Cors");
             app.UseEndpoints(endpoints =>
