@@ -22,8 +22,7 @@ namespace TrainReservation.Persistance.Services
             }
             return new ResponseReservation
             {
-                //Verilen dökümanda böyle istendiği için true dönülmüştür.
-                RezervasyonYapilabilir = true
+                RezervasyonYapilabilir = false
             };
         }
 
@@ -44,8 +43,8 @@ namespace TrainReservation.Persistance.Services
                             KisiSayisi = personCount > remainingCapacity ? remainingCapacity : personCount,
                             VagonAdi = wagonArray[i].Ad
                         });
+                        personCount = personCount > remainingCapacity ? personCount - remainingCapacity : 0;
                     }
-                    personCount = personCount > remainingCapacity ? personCount - remainingCapacity : 0;
                     if (personCount == 0)
                     {
                         break;

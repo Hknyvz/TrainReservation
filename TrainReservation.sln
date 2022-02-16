@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation.Domain", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation.Application", "TrainReservation.Application\TrainReservation.Application.csproj", "{606D2DBF-9870-4002-BFC2-85DB4BA75957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation.Persistance", "TrainReservation.Persistance\TrainReservation.Persistance.csproj", "{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainReservation.Persistance", "TrainReservation.Persistance\TrainReservation.Persistance.csproj", "{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainReservation.Persistance.Test", "TrainReservation.Persistance.Test\TrainReservation.Persistance.Test.csproj", "{533C6057-860D-4BE9-941C-37664BB6A3B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F76B2C29-CEC8-4B20-83ED-F64B3A2495BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533C6057-860D-4BE9-941C-37664BB6A3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533C6057-860D-4BE9-941C-37664BB6A3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533C6057-860D-4BE9-941C-37664BB6A3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533C6057-860D-4BE9-941C-37664BB6A3B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
